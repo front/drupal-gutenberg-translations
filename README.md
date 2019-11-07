@@ -21,5 +21,5 @@ npm i -g drupal-gutenberg-translations
 To generate `drupal-gutenberg-translations.js` file:
 
 ```
-npx drupal-gutenberg-translations [?source path] [target path]
+npx drupal-gutenberg-translations [target path]
 ```
