@@ -1,10 +1,28 @@
 {
   "name": "drupal-gutenberg-translations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/front/drupal-gutenberg-translations.git"
+  },
+  "homepage": "https://github.com/front/drupal-gutenberg-translations#readme",
+  "bugs": {
+    "url": "https://github.com/front/drupal-gutenberg-translations/issues"
+  },
   "author": "The Frontkom Contributors",
   "license": "GPL-2.0-or-later",
+  "keywords": [
+    "Drupal",
+    "Frontkom",
+    "Javascript",
+    "Gutenberg"
+  ],
+  "engines": {
+    "yarn": ">= 1.6",
+    "node": ">= 8.11"
+  },
   "scripts": {
     "drupal-gutenberg-translations": "node ./index.js"
   },
