@@ -1,0 +1,20 @@
+{
+  "name": "drupal-gutenberg-translations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "The Frontkom Contributors",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "drupal-gutenberg-translations": "node ./index.js"
+  },
+  "bin": {
+    "drupal-gutenberg-translations": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "minimist": "^1.2.0"
+  }
+}
