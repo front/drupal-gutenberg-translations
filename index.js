@@ -33,7 +33,7 @@ const processFiles = (error, filePaths) => {
   filePaths.forEach(filePath => {
     const data = fs.readFileSync(filePath, {encoding: 'utf-8'});
 
-    const regex = /[\;|\s]\_[\_|n|x]\(\s*(.*?)\s*\)|\[\"\_[\_|n|x]\"\]\)\((.*?)\)/gm;
+    const regex = /\b\_[\_|n|x]\(\s*(.*?)\s*\)|\[\"\_[\_|n|x]\"\]\)\((.*?)\)/gm;
     let m;
 
     while ((m = regex.exec(data)) !== null) {
