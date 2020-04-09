@@ -2,7 +2,9 @@
 
 Command line to generate a translations file compatible with Drupal.
 
-It retrieves all translations strings from Gutenberg `__()` translations functions and write as `Drupal.t()`. A new translations file `drupal-gutenberg-translations.js` will be created at given target path.
+It retrieves all translations strings from Gutenberg `__()`, `_n()`, `_x()` and `_nx()` translation function calls and generates equivalent `Drupal.t()` and `Drupal.formatPlural()` calls.
+
+A new translations file `drupal-gutenberg-translations.js` will be created at the given target path.
 
 ## Overview
 
